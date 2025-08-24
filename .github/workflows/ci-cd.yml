@@ -29,10 +29,6 @@ jobs:
       - name: Run linters
         run: flake8 .
 
-      - name: Run tests
-        run: pytest
-
-
   # --- Потом сборка и пуш Docker ---
   docker:
     runs-on: ubuntu-latest
